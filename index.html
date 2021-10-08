@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Pricing Page</title>
+		<title>Pricing Page: Farm Fresh</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -16,7 +16,106 @@
 	</head>
 
 	<body>
-		<div class="container"></div>
+		<div class="container-fluid">
+			<div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselHeader"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Farm Fresh Produce"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselHeader"
+						data-bs-slide-to="1"
+						aria-label="Free Delivery"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselHeader"
+						data-bs-slide-to="2"
+						aria-label="Shop with our app"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/FarmFresh.png" alt="From our farm to your table" class="d-block w-100" />
+					</div>
+					<div class="carousel-item">
+						<img src="img/FreeDelivery.png" alt="Free delivery with paid plans" class="d-block w-100" />
+					</div>
+					<div class="carousel-item">
+						<img src="img/FreshApp.png" alt="Use our app to shop" class="d-block w-100" />
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselHeader"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselHeader"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<div class="container mt-5">
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card shadow">
+							<img src="img/Indplan.png" alt="Individual Plan: $29" class="card-img-top" />
+							<div class="card-body">
+								<strong class="card-title">Individual</strong>
+								<p class="card-text">
+									The perfect plan just for you. Get all the fresh fruit and vegetables you need
+									without waste.
+								</p>
+								<a href="#" class="btn btn-success">Buy</a>
+							</div>
+							<div class="card-footer"></div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow">
+							<img src="img/FamilyPlan.png" alt="Family Plan: $99" class="card-img-top" />
+							<div class="card-body">
+								<strong>Family Plan</strong>
+								<p class="card-text">
+									The perfect plan for your family. Bring the freshest fruit and vegetables to your
+									whole family.
+								</p>
+								<a href="#" class="btn btn-success">Buy</a>
+							</div>
+							<div class="card-footer"></div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow">
+							<img src="img/Armyplan.png" alt="Army Plan: starting at $249" class="card-img-top" />
+							<div class="card-body">
+								<strong>Army Plan</strong>
+								<p class="card-text">
+									You have a really big family or a whole army to feed? This is the plan for you!
+								</p>
+								<a href="#" class="btn btn-success">Buy</a>
+							</div>
+							<div class="card-footer"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Bootstrap JS -->
 		<script
